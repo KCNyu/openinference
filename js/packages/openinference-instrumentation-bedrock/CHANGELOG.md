@@ -1,5 +1,80 @@
 # @arizeai/openinference-instrumentation-bedrock
 
+## 0.5.1
+
+### Patch Changes
+
+- Updated dependencies [5a075b9]
+  - @arizeai/openinference-semantic-conventions@2.12.0
+  - @arizeai/openinference-core@2.7.1
+
+## 0.5.0
+
+### Minor Changes
+
+- 5a1db03: Record provider-native stop reasons as `llm.finish_reason` for Converse, InvokeModel, and streaming responses. Preserve the existing Converse `llm.stop_reason` attribute and omit the finish reason when unavailable.
+
+## 0.4.31
+
+### Patch Changes
+
+- Updated dependencies [0ff0af2]
+- Updated dependencies [0ff0af2]
+  - @arizeai/openinference-semantic-conventions@2.11.0
+  - @arizeai/openinference-core@2.7.0
+
+## 0.4.30
+
+### Patch Changes
+
+- 34b19a6: Add reasoning and redacted-content block support for Bedrock Converse and Agent Runtime traces.
+
+## 0.4.29
+
+### Patch Changes
+
+- Updated dependencies [6d9f813]
+  - @arizeai/openinference-semantic-conventions@2.10.0
+  - @arizeai/openinference-core@2.6.3
+
+## 0.4.28
+
+### Patch Changes
+
+- Updated dependencies [fd01216]
+  - @arizeai/openinference-semantic-conventions@2.9.0
+  - @arizeai/openinference-core@2.6.2
+
+## 0.4.27
+
+### Patch Changes
+
+- Updated dependencies [4d72f42]
+  - @arizeai/openinference-core@2.6.1
+
+## 0.4.26
+
+### Patch Changes
+
+- Updated dependencies [99f6e71]
+  - @arizeai/openinference-core@2.6.0
+
+## 0.4.25
+
+### Patch Changes
+
+- 0071b37: Split over-complex functions into focused helpers and make implicit returns explicit (enforce `eslint/complexity`). Also hardens bedrock-agent-runtime tool-call extraction against a `function: null` payload that previously threw. No other behavior changes.
+- Updated dependencies [0071b37]
+  - @arizeai/openinference-core@2.5.4
+
+## 0.4.24
+
+### Patch Changes
+
+- Updated dependencies [1fe497f]
+  - @arizeai/openinference-semantic-conventions@2.8.0
+  - @arizeai/openinference-core@2.5.3
+
 ## 0.4.23
 
 ### Patch Changes
